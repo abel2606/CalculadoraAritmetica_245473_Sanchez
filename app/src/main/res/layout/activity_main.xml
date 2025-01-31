@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="360dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
+
+    <Button
+        android:id="@+id/btnBorrar8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="30dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
+
+    <Button
+        android:id="@+id/btnBorrar11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar24"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar21" />
+
+    <Button
+        android:id="@+id/btnBorrar25"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar26"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar23" />
+
+    <Button
+        android:id="@+id/btnBorrar26"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar11"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar22" />
+
+    <Button
+        android:id="@+id/btnBorrar24"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar20" />
+
+    <Button
+        android:id="@+id/btnBorrar23"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar22"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar19" />
+
+    <Button
+        android:id="@+id/btnBorrar22"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar21"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar18" />
+
+    <Button
+        android:id="@+id/btnBorrar21"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar20"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar17" />
+
+    <Button
+        android:id="@+id/btnBorrar20"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar16" />
+
+    <Button
+        android:id="@+id/btnBorrar19"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar18"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar15" />
+
+    <Button
+        android:id="@+id/btnBorrar18"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar17"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar14" />
+
+    <Button
+        android:id="@+id/btnBorrar17"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar16"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar13" />
+
+    <Button
+        android:id="@+id/btnBorrar16"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar12" />
+
+    <Button
+        android:id="@+id/btnBorrar15"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar14"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar9" />
+
+    <Button
+        android:id="@+id/btnBorrar14"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="9"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar13"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar10" />
+
+    <Button
+        android:id="@+id/btnBorrar13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="8"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar12"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar8" />
+
+    <Button
+        android:id="@+id/btnBorrar12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="7"
+        android:textSize="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar" />
+
+    <Button
+        android:id="@+id/btnBorrar9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="30dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar10"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
+
+    <Button
+        android:id="@+id/btnBorrar10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="30dp"
+        android:width="60dp"
+        android:height="6dp"
+        android:padding="0dp"
+        android:text="AC"
+        android:textSize="37dp"
+        app:layout_constraintStart_toEndOf="@+id/btnBorrar8"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
