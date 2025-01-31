@@ -244,7 +244,7 @@
         android:text="9"
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnNum8"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar10" />
+        app:layout_constraintTop_toBottomOf="@+id/btnResto" />
 
     <Button
         android:id="@+id/btnNum8"
@@ -285,11 +285,11 @@
         android:padding="0dp"
         android:text="÷"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar10"
+        app:layout_constraintStart_toEndOf="@+id/btnResto"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
 
     <Button
-        android:id="@+id/btnBorrar10"
+        android:id="@+id/btnResto"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -297,7 +297,7 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text=""
+        android:text="%"
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar8"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado" />

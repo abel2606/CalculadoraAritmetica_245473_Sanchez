@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         val restar: Button = findViewById(R.id.btnMenos)
         val dividir: Button = findViewById(R.id.btnDividir)
         val multiplicar: Button = findViewById(R.id.btnPor)
+        val resto: Button = findViewById(R.id.btnResto)
         val punto: Button = findViewById(R.id.btnPunto)
         val igual: Button = findViewById(R.id.btnIgual)
         var numTemp: Float = campo.text.toString().toFloat()
@@ -96,6 +97,12 @@ class MainActivity : AppCompatActivity() {
             operacionActual = "division"
         }
 
+        resto.setOnClickListener {
+            numTemp = campo.text.toString().toFloat()
+            campo.text = "0"
+            operacionActual = "resto"
+        }
+
         igual.setOnClickListener {
             numActual = campo.text.toString().toFloat()
             val respuesta = when (operacionActual) {
@@ -103,6 +110,7 @@ class MainActivity : AppCompatActivity() {
                 "resta" -> restar(numTemp, numActual)
                 "multiplicacion" -> multiplicar(numTemp, numActual)
                 "division" -> dividir(numTemp, numActual)
+                "resto" -> resto(numTemp,numActual)
                 else -> numActual
             }
             campo.text = String.format("%.8f", respuesta).trimEnd('0').trimEnd('.')
@@ -116,4 +124,5 @@ class MainActivity : AppCompatActivity() {
     fun restar(num1: Float, num2: Float): Float = num1 - num2
     fun multiplicar(num1: Float, num2: Float): Float = num1 * num2
     fun dividir(num1: Float, num2: Float): Float = if (num2 != 0f) num1 / num2 else 0f
+    fun resto(num1: Float, num2: Float) = num1 % num2
 }
