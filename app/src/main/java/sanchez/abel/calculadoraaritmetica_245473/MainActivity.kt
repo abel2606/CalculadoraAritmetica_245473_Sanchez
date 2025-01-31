@@ -64,7 +64,13 @@ class MainActivity : AppCompatActivity() {
         numero7.setOnClickListener { agregarTexto("7") }
         numero8.setOnClickListener { agregarTexto("8") }
         numero9.setOnClickListener { agregarTexto("9") }
-        punto.setOnClickListener { agregarTexto(".") }
+
+        punto.setOnClickListener {
+            var textoCampo = campo.text.toString()
+            if("." !in textoCampo){
+                agregarTexto(".")
+            }
+        }
 
         sumar.setOnClickListener {
             numTemp = campo.text.toString().toFloat()
@@ -101,16 +107,9 @@ class MainActivity : AppCompatActivity() {
             }
             campo.text = String.format("%.8f", respuesta).trimEnd('0').trimEnd('.')
         }
-
-
-
         borrar.setOnClickListener {
             campo.text = "0"
         }
-
-
-
-
     }
 
     fun sumar(num1: Float, num2: Float): Float = num1 + num2
