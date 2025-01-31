@@ -45,13 +45,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text=""
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
 
     <Button
-        android:id="@+id/btnBorrar11"
+        android:id="@+id/btnNum0"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -59,13 +59,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="0"
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar24"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar21" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNum2" />
 
     <Button
-        android:id="@+id/btnBorrar25"
+        android:id="@+id/btnIgual"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -73,13 +73,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="="
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar26"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar23" />
+        app:layout_constraintStart_toEndOf="@+id/btnPunto"
+        app:layout_constraintTop_toBottomOf="@+id/btnMas" />
 
     <Button
-        android:id="@+id/btnBorrar26"
+        android:id="@+id/btnPunto"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -87,10 +87,10 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="."
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar11"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar22" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum0"
+        app:layout_constraintTop_toBottomOf="@+id/btnNum3" />
 
     <Button
         android:id="@+id/btnBorrar24"
@@ -101,13 +101,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text=""
         android:textSize="37dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar20" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNum1" />
 
     <Button
-        android:id="@+id/btnBorrar23"
+        android:id="@+id/btnMas"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -115,13 +115,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="+"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar22"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar19" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum3"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenos" />
 
     <Button
-        android:id="@+id/btnBorrar22"
+        android:id="@+id/btnNum3"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -129,13 +129,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="3"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar21"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar18" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum2"
+        app:layout_constraintTop_toBottomOf="@+id/btnNum6" />
 
     <Button
-        android:id="@+id/btnBorrar21"
+        android:id="@+id/btnNum2"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -143,13 +143,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="2"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar20"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar17" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum1"
+        app:layout_constraintTop_toBottomOf="@+id/btnNum5" />
 
     <Button
-        android:id="@+id/btnBorrar20"
+        android:id="@+id/btnNum1"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
@@ -157,13 +157,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="1"
         android:textSize="37dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar16" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNum4" />
 
     <Button
-        android:id="@+id/btnBorrar19"
+        android:id="@+id/btnMenos"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -171,13 +171,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="-"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar18"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar15" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum6"
+        app:layout_constraintTop_toBottomOf="@+id/btnPor" />
 
     <Button
-        android:id="@+id/btnBorrar18"
+        android:id="@+id/btnNum6"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -185,13 +185,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="6"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar17"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar14" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum5"
+        app:layout_constraintTop_toBottomOf="@+id/btnNum9" />
 
     <Button
-        android:id="@+id/btnBorrar17"
+        android:id="@+id/btnNum5"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -199,13 +199,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="5"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar16"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar13" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum4"
+        app:layout_constraintTop_toBottomOf="@+id/btnNum8" />
 
     <Button
-        android:id="@+id/btnBorrar16"
+        android:id="@+id/btnNum4"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
@@ -213,13 +213,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="4"
         android:textSize="37dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar12" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNum7" />
 
     <Button
-        android:id="@+id/btnBorrar15"
+        android:id="@+id/btnPor"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -227,13 +227,13 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="x"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar14"
-        app:layout_constraintTop_toBottomOf="@+id/btnBorrar9" />
+        app:layout_constraintStart_toEndOf="@+id/btnNum9"
+        app:layout_constraintTop_toBottomOf="@+id/btnDividir" />
 
     <Button
-        android:id="@+id/btnBorrar14"
+        android:id="@+id/btnNum9"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -243,11 +243,11 @@
         android:padding="0dp"
         android:text="9"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar13"
+        app:layout_constraintStart_toEndOf="@+id/btnNum8"
         app:layout_constraintTop_toBottomOf="@+id/btnBorrar10" />
 
     <Button
-        android:id="@+id/btnBorrar13"
+        android:id="@+id/btnNum8"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -257,11 +257,11 @@
         android:padding="0dp"
         android:text="8"
         android:textSize="37dp"
-        app:layout_constraintStart_toEndOf="@+id/btnBorrar12"
+        app:layout_constraintStart_toEndOf="@+id/btnNum7"
         app:layout_constraintTop_toBottomOf="@+id/btnBorrar8" />
 
     <Button
-        android:id="@+id/btnBorrar12"
+        android:id="@+id/btnNum7"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
@@ -275,7 +275,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnBorrar" />
 
     <Button
-        android:id="@+id/btnBorrar9"
+        android:id="@+id/btnDividir"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="13dp"
@@ -283,7 +283,7 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text="÷"
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar10"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
@@ -297,7 +297,7 @@
         android:width="60dp"
         android:height="6dp"
         android:padding="0dp"
-        android:text="AC"
+        android:text=""
         android:textSize="37dp"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar8"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
